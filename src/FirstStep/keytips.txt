@@ -1,0 +1,56 @@
+PROJECT TREE
+show/hide/ project tree: alt + 1
+create class/file: alt + insert
+
+TABS
+show tabs: ctrl + tab
+go to class: ctrl + n
+close file: ctrl + F4
+
+CODE EDITOR
+//some useful menu: ctrl + ~
+
+// abbreviation keys
+to show all abbreviation keys: ctrl + j
+the most famous:
+psvm - public static void main
+sout - System.out.println()
+fori - iterate for i
+
+//allocation - выделение
+one word,method,block (cursor into this word, click several times): ctrl + w
+decreasing allocation: ctrl + shift + w
+
+//expand-collapse method, block
+collapse/expand method, block: ctrl + "-"/"+"
+collapse/expand all: ctrl + shift + "-"/"+"
+
+//fast creatoin or deletion
+create the line duplicate: ctrl + d
+delete the line: ctrl + y
+delete all unused imports: ctrl + alt + o
+delete the whole word: ctrl + backspace
+create Constructor, getter or setter: alt + insert
+!!! transform the line into the iteration (allocate at first): ctrl + alt + t !!!
+
+//moving
+go to beginning/end of cycle or method: ctrl + [/]
+go to exact line: ctrl + g
+
+//formatting
+remove space: shift + tab
+add space: tab
+correct the formatting: ctrl + alt + i
+
+//comments
+add/remove comments "/": ctrl + /
+add/remove comments "/*  */": ctrl + shift + /
+
+//redefinition of classes
+select method to implement: ctrl + i
+
+//Project making + Debug
+make the last class: shift + F10
+make the current class: shift + alt + F10
+Debug (set red point in any line): shift + F9
+to move further during the debugging: F7
