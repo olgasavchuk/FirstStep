@@ -8,10 +8,14 @@ public class BubbleRevert {
 
     public static void main(String[] args) throws IOException {
 
-        int [] array = new int[4];
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Insert array size:");
+        int n = Integer.parseInt(reader.readLine());
+
+        int [] array = new int[n];
         int s;
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
 
         for (int i = 0; i < array.length; i++) {
             System.out.println("Input a number:");
