@@ -25,7 +25,7 @@ decreasing allocation: ctrl + shift + w
 collapse/expand method, block: ctrl + "-"/"+"
 collapse/expand all: ctrl + shift + "-"/"+"
 
-//fast creatoin or deletion
+//fast creation or deletion
 create the line duplicate: ctrl + d
 delete the line: ctrl + y
 delete all unused imports: ctrl + alt + o
