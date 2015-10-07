@@ -12,7 +12,7 @@ public class CompareNames {
         String name1 = reader.readLine();
         String name2 = reader.readLine();
 
-        if (name1 == name2) {
+        if (name1.equals(name2)) {
             System.out.print("Имена идентичны");
         }
         else {
