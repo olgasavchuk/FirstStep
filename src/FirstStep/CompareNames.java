@@ -15,8 +15,10 @@ public class CompareNames {
         if (name1 == name2) {
             System.out.print("Имена идентичны");
         }
-        else if (name1.length() == name2.length()) {
-            System.out.print("Длины имен равны");
+        else {
+            if (name1.length() == name2.length()) {
+                System.out.print("Длины имен равны");
+            }
         }
     }
 }
