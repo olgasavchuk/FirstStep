@@ -40,6 +40,6 @@ class MyClass1 {
     }
 
     void show() {
-        System.out.println("Object fields: " + number + " and " + symb);
+        System.out.println("Object fields: " + this.number + " and " + this.symb);
     }
 }
